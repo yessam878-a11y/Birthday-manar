@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="ar">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>birthday manar</title>
+<!-- ربط ملف CSS -->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+<div class="hero">
+<div class="avatar">
+<img src="/love-site/IMG_9137.jpeg" alt="صورتهما">
+</div>
+<div class="meta">
+<h1>mvnoraa</h1>
+<p class="lead">  اللي كبر سنة ياعم😉</p>
+<div class="controls">
+<button class="btn" id="playAudio">تشغيل الموسيقى</button>
+<button class="btn ghost small" id="showSurprise">مفاجأة</button>
+<button class="btn small" id="openTimeline">شوف المحطات</button>
+<div style="margin-left:auto">
+<div class="heart" title="بحبك">
+<svg viewBox="0 0 24 24"><path d="M12 21s-7.5-4.7-10-8.1C-0.2 9.6 2.4 5 6.3 5 8.4 5 10 6.1 11 7.7 12 6.1 13.6 5 15.7 5c3.9 0 6.5 4.6 4.3 7.9C19.5 16.3 12 21 12 21z"/></svg>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="side">
+<div>
+<div class="glass-card messages">
+<h3>رسالة عشوائية</h3>
+<div class="message-box" id="messageBox">اضغط الزر أسفل لعرض رسالة ❤️</div>
+<div style="display:flex;gap:10px;margin-top:10px">
+<button class="btn small" id="randomMsgBtn">احصل على رسالة</button>
+</div>
+</div>
+<div class="glass-card" style="margin-top:12px">
+<h3>تايم لاين </h3>
+<div class="timeline-wrap">
+<div class="timeline" id="timeline">
+<div class="event">
+<div class="dot"></div>
+<div>
+<h3>أول مرة تقابلنا</h3>
+<p1>21 يناير 2019 —مدرسة الاقصى، ،.</p>
+</div>
+</div>
+<div class="event">
+<div class="dot"></div>
+<div>
+<h3>اخر مرة شوفنا بعض</h3>
+<p>سبتمبر 2025 — كلية الاداب جامعة القاهرة.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div>
+<div class="glass-card">
+<h3>العداد للتاريخ الكبير</h3>
+<div id="targetDate" style="display:none">2025-07-17T00:00:00</div>
+<div class="countdown" id="countdown">
+<div class="unit"><div class="num" id="days">--</div><div>يوم</div></div>
+<div class="unit"><div class="num" id="hours">--</div><div>ساعة</div></div>
+<div class="unit"><div class="num" id="mins">--</div><div>دقيقة</div></div>
+<div class="unit"><div class="num" id="secs">--</div><div>ثانية</div></div>
+</div>
+</div>
+<div class="glass-card" style="margin-top:12px;text-align:center">
+<h3>مفاجأة صغيرة</h3>
+<p class="lead">اضغط الزر وشوف المفاجأة ✨</p>
+<div id="surpriseArea" style="min-height:90px;display:flex;align-items:center;justify-content:center"></div>
+</div>
+</div>
+</div>
+<footer> happy birthday ♥</footer>
+</div>
+
+<audio id="bgAudio" loop src="your-song.mp3"></audio>
+
+<!-- رسالة التهنئة -->
+<div id="congratsMsg">🎉 مبروك! خلص العد التنازلي 🎉</div>
+
+<!-- ربط ملف JS -->
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+</body>
+</html>
