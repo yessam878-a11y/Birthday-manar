@@ -80,5 +80,5 @@ function updateCountdown(){
 const timer = setInterval(updateCountdown, 1000);
 updateCountdown();
 
-تعطيل الأزرار لحد ما يخلص العداد
-document.querySelectorAll("button").forEach(btn => btn.disabled = true);
+//تعطيل الأزرار لحد ما يخلص العداد
+//document.querySelectorAll("button").forEach(btn => btn.disabled = true);
